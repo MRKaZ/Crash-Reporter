@@ -76,7 +76,7 @@ try {
 ```
 ### **Receive data.**
 - Also you can receive the crash reports using a ``BroadcastReceiver`` [Example](https://github.com/MRKaZ/Crash-Reporter/blob/30889eb8646eb930ea773cae5ecaa388c817a9da/app/src/main/java/com/mrkazofficial/crashreporter/MainActivity.kt#L113).
-- First of all you have to register to a **LocalBroadcastManager** using register local event key.
+- First of all you have to register to a **LocalBroadcastManager** using local event key.
 - Keys for receive data
   - Register with ``CRASH_REPORTER_LOCAL_EVENT``
   - ``CRASH_REPORTER_LOCAL_EXTRA_CRASH_LOG_KEY``
