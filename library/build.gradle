@@ -39,31 +39,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-publishing {
-    repositories {   // by default upload tasks points to the legacy URl which will be down on sunset and all new repos should use the one similar to below.
-        maven {
-            // change to point to your repo, e.g. http://my.org/repo
-            url = "https://s01.oss.sonatype.org/content/groups/staging/"
-            credentials {   // using tokenized username and password per maven for security.
-                username = ossrhUsername  // jira-username (nexus UI username or username token
-                password = ossrhPassword  //jira-password (nexus UI password or password token)
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.MRKaZ'
+                artifactId = 'crash-reporter'
+                version = '1.0'
             }
         }
     }
 }
-
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            release(MavenPublication) {
-//                from components.release
-//
-//                groupId = 'com.github.MRKaZ'
-//                artifactId = 'crash-reporter'
-//                version = '1.0'
-//            }
-//        }
-//    }
-//}
 apply plugin: 'maven-publish'
-apply plugin: 'com.vanniktech.maven.publish' // NEW
