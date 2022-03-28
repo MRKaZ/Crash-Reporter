@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CrashReporter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BaseTheme.Dialog.Crash" parent="@android:style/Theme.Dialog">
+        <!--Dialog background-->
+        <item name="android:windowBackground">@drawable/bg_dialog_rounded_8dp</item>
+        <!--Dialog layout margin-->
+        <item name="android:layout_margin">8dp</item>
+        <!--Dialog content overlay-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- dialog is floating -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- Dialog window frame -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog background dim -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- Dialog request no feature title -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- Dialog is translucent -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Custom.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="strokeColor">@color/btn_selector</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">18dp</item>
+    </style>
+</resources>

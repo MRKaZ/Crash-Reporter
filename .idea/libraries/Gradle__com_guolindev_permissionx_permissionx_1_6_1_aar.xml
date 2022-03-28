@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.guolindev.permissionx:permissionx:1.6.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3a850bcf3ff1363cd294a585ed48f99/transformed/jetified-permissionx-1.6.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a3a850bcf3ff1363cd294a585ed48f99/transformed/jetified-permissionx-1.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3a850bcf3ff1363cd294a585ed48f99/transformed/jetified-permissionx-1.6.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guolindev.permissionx/permissionx/1.6.1/18f4ed76d97bed2e8c064793659d8646c59f76aa/permissionx-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guolindev.permissionx/permissionx/1.6.1/58f173693044a7cf42bf1a9385cdabf443c1aa7e/permissionx-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

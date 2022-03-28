@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/background_dialog_rounded_8dp.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_button.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_icon.xml" value="0.14" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_material_button.xml" value="0.14" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_outlined.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_red_outline_selector.xml" value="0.14" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/bg_red_outlined.xml" value="0.14" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/btn_selector.xml" value="0.14" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/click_animation_clean_light_dark_white.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/ic_arrow_down_24.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/ic_arrow_up_24.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/drawable/ic_hazard_warning_flasher.xml" value="0.1345" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/layout/activity_crash_log.xml" value="0.209375" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/layout/crash_log_item_row.xml" value="0.209375" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/layout/dialog_crash_report.xml" value="0.209375" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/app/src/main/res/menu/log_toolbar_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/crashreporter/src/main/res/drawable/background_dialog_rounded_8dp.xml" value="0.137" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/crashreporter/src/main/res/drawable/bg_button.xml" value="0.137" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/crashreporter/src/main/res/layout/dialog_crash_report.xml" value="0.209375" />
+        <entry key="..\:/Users/MRKaZ/AndroidStudioProjects/CrashReporter/reporterlibrary/src/main/res/layout/dialog_crash_report.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

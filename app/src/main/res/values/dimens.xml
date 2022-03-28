@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App Base Layouts-->
+    <dimen name="card_elevation" >3dp</dimen>
+    <dimen name="dialog_margin" >8dp</dimen>
+    <dimen name="dialog_margin_internet" >20dp</dimen>
+
+    <!--InBuilt Player-->
+    <dimen name="activity_main_button_view_margin" >15dp</dimen>
+    <dimen name="controls_padding">170sp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+
+    <!--Folder & File Picker (Explorer)-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_red_outlined"
+    android:layout_margin="5dp"
+    android:id="@+id/adapterContainer"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtFileName"
+            style="@style/TextAppearance.MaterialComponents.Overline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/txt_filename" />
+
+        <TextView
+            android:id="@+id/txtFileSize"
+            android:visibility="gone"
+            style="@style/TextAppearance.MaterialComponents.Overline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/txt_filesize" />
+
+        <RelativeLayout
+            android:id="@+id/expandableSpinner"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/imgExpandButton"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/todo"
+                android:gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_down_24" />
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Overline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/imgExpandButton"
+                android:gravity="center_vertical"
+                android:text="@string/txt_show_crash_log"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ael_expanded="false"
+            android:orientation="vertical"
+            app:ael_duration="5">
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/txtContent"
+                android:textSize="12sp"
+                style="@style/TextAppearance.MaterialComponents.Overline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_crash_content"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

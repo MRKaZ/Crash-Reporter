@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Crash Reporter</string>
+
+    <!-- MainActivity -->
+    <string name="btn_txt_check_crash_logs">Check crash logs</string>
+    <string name="btn_txt_index_out_bound">Index out bound</string>
+    <string name="bnt_txt_array_exception">Array Exception</string>
+    <string name="btn_txt_class_cast">Class Cast</string>
+    <string name="btn_txt_null_pointer">Null pointer</string>
+    <string name="btn_txt_clear_crash_logs">Clear crash logs</string>
+
+    <!-- Adapter row -->
+    <string name="txt_filename">Filename</string>
+    <string name="txt_filesize">Filesize</string>
+    <string name="todo">TODO</string>
+    <string name="txt_show_crash_log">Show Crash Log</string>
+    <string name="txt_crash_content">Content</string>
+    <string name="txt_crash_log">Crash log</string>
+    <string name="txt_logs_of_fatal_exceptions_and_throwable">Logs of fatal exceptions and throwable</string>
+
+
+    <string name="btn_txt_cancel">Cancel</string>
+    <string name="txt_no_crashes_found">No crashes found :(</string>
+    <string name="txt_delete">Delete</string>
+
+
+</resources>
