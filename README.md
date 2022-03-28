@@ -83,7 +83,7 @@ try {
   - ``CRASH_REPORTER_LOCAL_EXTRA_SHOW_DIALOG_KEY``
 
 #### Examples 
-1. Do the register **LocalBroadcastManager** with using this local event key ``CRASH_REPORTER_LOCAL_EVENT`` also dont forget to unregister on destroy and stop.
+1. Do the register stuff with using this local event key ``CRASH_REPORTER_LOCAL_EVENT`` also dont forget to unregister on destroy and stop.
 Do not register on resume.
 ```
 // Register localBroadcastManager
